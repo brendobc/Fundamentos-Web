@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <h1>Html em ação</h1>
@@ -16,48 +17,47 @@
         </li>
     </ol>
 
-    <form>
-        <label for="nome">Nomezito:</label>
-        <input type="text" id="nome">
+    <div class="container">
+        <form>
+        <div>
+            <div class="alignCenter">
+                <label for="nome"> Nomezito: </label>
+               <input type="text" id="nome">
+            </div>
+            <label for="email"> Email: </label>
+            <input type="email" id="email">
+            <br>
+            <label for="assunto">Assunto:</label>
+            <textarea name="assunto" id="assunto" cols="40" rows="5"></textarea>
+            <button>Enviar</button>
+        </div>
+        
+       </form>
 
-        <label for="email"> Email:</label>
-        <input type="email" id="email">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6346754023143!2d-46.5657939853844!3d-23.545638566896166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x509d91272a81a3fc!2sEtec%20Martin%20Luther%20King!5e0!3m2!1spt-BR!2sbr!4v1600720073682!5m2!1spt-BR!2sbr"
+            width="400"
+            height="250"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0">
+        </iframe>
 
-        <br>
-        <br>
-        
-        <label for="assunto">Assunto:</label>
-        <textarea name="assunto" id="assunto" cols="40" rows="5"></textarea>
-        
-        <br>
-        <br>
-        
-        <button>Enviar</button>
-    </form>
+        <iframe
+            width="424"
+            height="238"
+            src="https://www.youtube.com/embed/X7WMSfEfZGg"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
     
-    <br>
-    <br>
-
-    <iframe
-        width="424"
-        height="238"
-        src="https://www.youtube.com/embed/X7WMSfEfZGg"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
     
-    <br>
-    <br>
+    
+   
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6346754023143!2d-46.5657939853844!3d-23.545638566896166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x509d91272a81a3fc!2sEtec%20Martin%20Luther%20King!5e0!3m2!1spt-BR!2sbr!4v1600720073682!5m2!1spt-BR!2sbr"
-        width="400"
-        height="250"
-        frameborder="0"
-        style="border:0;"
-        allowfullscreen=""
-        aria-hidden="false"
-        tabindex="0">
-    </iframe>
+   
 </body>
 </html>

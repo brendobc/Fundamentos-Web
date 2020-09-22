@@ -1,0 +1,26 @@
+/* Estilos de index */
+.menu li {
+    display: inline;  
+    padding: 15px;
+}
+
+.setPurple {
+    color: purple;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Estilos de contato */
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.alignCenter {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
