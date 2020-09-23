@@ -16,11 +16,23 @@
 .container {
     display: flex;
     flex-flow: row;
-    justify-content: flex-start;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
 }
 
-.alignCenter {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.padding15 {
+    padding: 15px;
+}
+
+.spaceAround {
+    justify-content: space-between;
+}
+
+.container > .divson {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 10px;
+    line-height: 60px;
+    font-size: 20px;
 }
